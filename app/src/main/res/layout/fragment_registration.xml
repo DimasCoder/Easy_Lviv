@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context="dimasapp.dimas.com.ui.auth.RegistrationFragment">
+
+
+    <ImageView
+        android:id="@+id/arrowBackReg"
+        android:clickable="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/ic_arrow_back"/>
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/dark_gray"
+            android:fontFamily="@font/light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="@string/tvRegister"
+            android:layout_marginStart="40dp"/>
+
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="First name"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/fields"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/etUserSurname"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="Second Name"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/fields"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="Example@gmail.com"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/fields"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/fields"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/cnfPassword"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="Confirm password"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/fields"
+            android:inputType="textPassword" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnReg"
+                android:layout_width="162dp"
+                android:layout_height="53dp"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_login"
+                android:textSize="22sp"
+                android:fontFamily="@font/regular"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:text="@string/btnReg"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/tvHelpReg"
+                android:clickable="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/light"
+                android:text="Need Help?"
+                android:textColor="@color/orange"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

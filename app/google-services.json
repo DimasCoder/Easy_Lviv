@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "89511679595",
+    "firebase_url": "https://uifirebaseproject-50bf4.firebaseio.com",
+    "project_id": "uifirebaseproject-50bf4",
+    "storage_bucket": "uifirebaseproject-50bf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89511679595:android:f748b5c6f17cdbf562c32e",
+        "android_client_info": {
+          "package_name": "dimasapp.dimas.com.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89511679595-69lib4ugkc2vfbgccmjv6msoshf1ucfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dimasapp.dimas.com.ui",
+            "certificate_hash": "9fb4f3dcf61c2093d6f0ce3f89ffb1a20e017bb8"
+          }
+        },
+        {
+          "client_id": "89511679595-45tvj5qv8iuhi8v1bd61j7q0krmvrte4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACNY79_RQ6QZk5BJpCCR3n_Pk5F_AQ8gI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89511679595-45tvj5qv8iuhi8v1bd61j7q0krmvrte4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

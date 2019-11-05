@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnDialogExit"
+        android:background="@drawable/ic_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оперний театр"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:id="@+id/alertLL"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="7dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/dialogText"
+                android:textColor="@color/dark_gray"
+                android:text="@string/otText"
+                android:textSize="18dp"
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </ScrollView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_toRightOf="@id/alertLL"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:layout_gravity="center"
+            android:id="@+id/dialogImage"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            app:siRadius="20dp"
+            android:src="@drawable/ot_image"/>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:srcCompat="@drawable/ic_excursions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/dialogAddress"
+                android:textColor="#000000"
+                android:text="@string/otAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_play"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
