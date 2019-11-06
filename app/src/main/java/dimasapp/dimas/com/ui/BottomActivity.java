@@ -7,6 +7,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import dimasapp.dimas.com.ui.cardfragments.BeerFragment;
 import dimasapp.dimas.com.ui.fragments.HomeFragment;
 import dimasapp.dimas.com.ui.fragments.CameraFragment;
 import dimasapp.dimas.com.ui.fragments.MapFragment;

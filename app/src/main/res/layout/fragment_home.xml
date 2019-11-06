@@ -29,9 +29,10 @@
         android:layout_weight="6"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:padding="14dp">
+        android:padding="10dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardMonuments"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -51,15 +52,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                
-                <ImageView
-                    android:src="@drawable/ellogo"
+
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:src="@drawable/adam"
+                    app:siRadius="30dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="85dp"
+                    android:layout_height="85dp" />
                 <TextView
-                    android:text="First Card"
-                    android:textColor="@color/orange"
+                    android:text="@string/monuments"
+                    android:textColor="@color/dark_gray"
                     android:fontFamily="@font/light"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
@@ -68,6 +70,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardMustSee"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -88,14 +91,15 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:src="@drawable/ellogo"
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:src="@drawable/theatre"
+                    app:siRadius="30dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="85dp"
+                    android:layout_height="85dp" />
                 <TextView
-                    android:text="First Card"
-                    android:textColor="@color/orange"
+                    android:text="@string/must_see"
+                    android:textColor="@color/dark_gray"
                     android:fontFamily="@font/light"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
@@ -104,6 +108,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardFood"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -124,14 +129,16 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:src="@drawable/ellogo"
+
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:src="@drawable/rebernya"
+                    app:siRadius="30dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="85dp"
+                    android:layout_height="85dp" />
                 <TextView
-                    android:text="First Card"
-                    android:textColor="@color/orange"
+                    android:text="@string/food"
+                    android:textColor="@color/dark_gray"
                     android:fontFamily="@font/light"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
@@ -140,6 +147,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardBeer"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -160,14 +168,15 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:src="@drawable/ellogo"
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:src="@drawable/beeer"
+                    app:siRadius="30dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="85dp"
+                    android:layout_height="85dp" />
                 <TextView
-                    android:text="First Card"
-                    android:textColor="@color/orange"
+                    android:text="@string/beer"
+                    android:textColor="@color/dark_gray"
                     android:fontFamily="@font/light"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
